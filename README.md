@@ -7,8 +7,7 @@ OpenLaw Dapp for Funding Bill of Sale Contract
 
 First, run 'npm install' inside the client/ directory. <br/>
 Second, create your .env file with MNEMONIC="Enter MetaMask Mnemonic here" and INFURA_API_KEY="Enter Infura Project ID here" 
-for environment variables. <br/>
-Make sure to be running Ganache. 
+for environment variables. <br/> 
 Third, run 'truffle migrate --network rinkeby'.<br/>
 Fourth, grab the contract address of the BillOfSale deployed on Rinkeby. <br/>
 Fifth, sign and create the Bill of Sale in OpenLaw site as seller and buyer. <br/>
